@@ -1,0 +1,313 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* background-color: rgb(239, 236, 232); */
+  background-color: whitesmoke;
+}
+
+/*Header Start*/
+
+header {
+  background: rgb(250, 226, 226);
+  position: sticky;
+  top: 0;
+  height: 88px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.rightBox {
+  display: flex;
+  margin: 12px;
+  font-size: 20px;
+}
+
+.rightBox i {
+  padding: 5px;
+}
+
+.rightBox a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.left img {
+  width: 32px;
+  height: 32px;
+  padding: 7px 17px;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.containerHeader {
+  padding: 0 10vw;
+}
+
+nav {
+  font-size: 12px;
+  padding-top: 14px;
+}
+
+.search {
+  width: 34vw;
+  height: 3vh;
+  padding: 7px 17px;
+  border: 0.5px solid grey;
+  background: #f7f8fd;
+  border-radius: 5px;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+/*Header End*/
+
+/*Category Start*/
+
+.category {
+  padding: 22px;
+  text-align: center;
+}
+
+.category-col {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.category li {
+  width: 100%;
+  list-style: none;
+  display: inline;
+  overflow: hidden;
+}
+
+.category a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+
+}
+
+.category li a:hover {
+  font-weight: bold;
+}
+
+/*Category End*/
+
+/*Home*/
+.image img {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 2.5;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  color: #832729;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  color: rgb(255, 110, 180);
+}
+
+hr {
+  background-color: rgba(240, 69, 69, 0.851);
+  width: 60%;
+  height: 1px;
+}
+
+/*Category Start*/
+.shopCategory {
+  width: 100%;
+  padding: 2% 0px 0px 0px;
+}
+
+.cards {
+  height: auto;
+  padding: 0% 15%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+}
+
+.cate {
+  max-width: 14rem;
+  height: 15rem;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  outline: .1rem solid;
+  outline-color: rgb(160, 206, 243);
+}
+
+.cate:hover {
+  outline: .2rem solid rgb(244, 146, 206);
+
+}
+
+.cate .img {
+  height: 9.5rem;
+  max-width: 15rem;
+  padding: 7%;
+  background-position: center 45%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.details {
+  text-align: center;
+  padding: .8rem 0;
+  font-size: 22px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+#c1_img {
+  background-image: url(./Images/earring.jpg)
+}
+
+#c2_img {
+  background-image: url(./Images/bangles1.png)
+}
+
+#c3_img {
+  background-image: url(./Images/engagement_rings1.jpg)
+}
+
+#c4_img {
+  background-image: url(./Images/pendant1.png)
+}
+
+#c5_img {
+  background-image: url(./Images/necklace1.png)
+}
+
+#c6_img {
+  background-image: url(./Images/nose_pin1.png)
+}
+
+#c7_img {
+  background-image: url(./Images/bracelet1.png)
+}
+
+#c8_img {
+  background-image: url(./Images/gold_coin1.png)
+}
+
+/*Category End*/
+
+
+/*Footer Start*/
+footer {
+  margin-top: 50px;
+  padding: 22px;
+  text-align: center;
+  background: rgb(242, 233, 233);
+  line-height: 2;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 20%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.footer-col h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #832729;
+  margin-bottom: 12px;
+  padding-left: 1.5vw;
+  min-height: 46px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.footer-col a {
+  border: none;
+  padding: 2px 0px;
+  margin: 5px 0px 15px;
+  color: #000000;
+  font-size: 18px;
+  background-color: #f2e9e9;
+  text-decoration: none;
+}
+
+.footer-col img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.footer-col li a:hover {
+  font-weight: bold;
+}
+
+/*Footer End*/
+
+@media (max-width: 1550px) {
+  .containerHeader {
+    padding: 0 2vw;
+  }
+
+  .search {
+    width: 50vw;
+  }
+
+  header {
+    height: 140px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .rightBox {
+    display: flex;
+    margin: 12px;
+  }
+
+  .category-col {
+    display: inline;
+    margin: 12px;
+    align-items: center;
+  }
+
+  .footer-col {
+    padding: 0 10px;
+    width: 20%;
+  }
+}
